@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <style>
+  body{
+    background-image: url("facebook.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     margin: 0px; 
+  }
+  .box{
+    width: 300px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    background: white;
+    transform: translate(-50%,-50%);
+    border-radius: 40px;
+    opacity: 80%;
+    border: steelblue solid 5px;
+  }
+  .box input[type = "text"], .box input[type = "password"]{
+    background:seashell;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    height: 25px;
+    border: royalblue solid;
+  }
+  .box h1{
+    color:royalblue;
+  }
+  .box input[type = "submit"]{
+    background: steelblue;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: steelblue solid;
+  }
+  .he{
+    font-size: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 70%;
+  }
+  .sidebar{
+    position: fixed;
+    width: 220px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    opacity: 70%;
+    padding: 50px;
+    border: royalblue solid 7px;
+    
+
+  }
+  .sidebar a{
+    display: block;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+  }
+  .sidebar a:hover{
+    background: lightblue;
+    transition: .6s;
+    margin-top: 10px;
+    border: royalblue solid;
+    border-radius: 8px;
+  }
+  .sidebar h1{
+    color: royalblue;
+    text-align: center;
+    font-size: 50px;
+  }
+  </style>
+</head>
+<body>
+  <h1 class= "he">Hope</h1>
+  <form class= "box" action="index.html" method="POST">
+    <h1>Facebook</h1>
+    <h3>Login</h3>
+    <input type="text" name="" placeholder="User Name">
+    <input type="password" name="" placeholder="Password">
+    <input type="submit" value="Login">
+    <a href="">forget password?</a> or <a href="">sign up</a>
+  </form>
+  <div class="sidebar"><strong>
+    <h1>Facebook</h1>
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Services">Services</a>
+    <a href="#Contact Us">Contact Us</a>
+  </strong>
+  </div>
+
+</body>
+</html>
